@@ -12,11 +12,14 @@ const Header = () => {
 				<Link href={""}>Menu</Link>
 				<Link href={""}>About</Link>
 				<Link href={""}>Contact</Link>
+			</nav>
+			<nav className="flex items-center gap-4 text-gray-500 font-semibold">
+				<Link href={""}>Login</Link>
 				<Link
 					href={""}
 					className="bg-primary rounded-full text-white px-4 py-2"
 				>
-					Login
+					Register
 				</Link>
 			</nav>
 		</header>

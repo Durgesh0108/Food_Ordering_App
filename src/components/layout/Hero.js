@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Right_arrow from "./icons/right_arrow";
+import Right_arrow from "../icons/right_arrow";
 
 const Hero = () => {
 	return (
